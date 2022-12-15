@@ -1,0 +1,5 @@
+2022-12-15 15:15:42,049 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - lbl_maxv_percent : no option recognised
+2022-12-15 15:15:42,051 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - lbl_max_rapid : no option recognised
+2022-12-15 15:15:42,061 - QTvcp.QTVCP.WIDGETS.STATUS_LABEL - WARNING - lbl_runtime : no option recognised
+2022-12-15 15:15:42,423 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui
+2022-12-15 15:15:42,444 - QTvcp.QTVCP.LIB.QT_NGCGUI.NGCGUI - DEBUG - UI Filename: /usr/lib/python3/dist-packages/qtvcp/lib/qt_ngcgui/ngcgui.ui Didn't find a path NGCGUI files
