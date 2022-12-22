@@ -6627,7 +6627,19 @@ color: rgb(245, 121, 0);</string>
                                <item>
                                 <layout class="QGridLayout" name="gridLayout_30">
                                  <property name="leftMargin">
-                                  <number>0</number>
+                                  <number>4</number>
+                                 </property>
+                                 <property name="topMargin">
+                                  <number>4</number>
+                                 </property>
+                                 <property name="rightMargin">
+                                  <number>4</number>
+                                 </property>
+                                 <property name="bottomMargin">
+                                  <number>4</number>
+                                 </property>
+                                 <property name="spacing">
+                                  <number>4</number>
                                  </property>
                                  <item row="1" column="4">
                                   <widget class="AxisToolButton" name="axistoolbutton_4">
@@ -17767,7 +17779,7 @@ TOUCHY</string>
             <number>2</number>
            </property>
            <property name="text">
-            <string>02:34:12 </string>
+            <string>10:34:40 </string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
@@ -19042,9 +19054,9 @@ TOUCHY</string>
   <slot>cmb_gcode_history_clicked()</slot>
  </slots>
  <buttongroups>
-  <buttongroup name="axis_buttonGroup"/>
-  <buttongroup name="page_buttonGroup"/>
   <buttongroup name="start_buttonGroup"/>
   <buttongroup name="mode_buttonGroup"/>
+  <buttongroup name="axis_buttonGroup"/>
+  <buttongroup name="page_buttonGroup"/>
  </buttongroups>
 </ui>
