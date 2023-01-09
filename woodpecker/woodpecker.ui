@@ -17779,7 +17779,7 @@ TOUCHY</string>
             <number>2</number>
            </property>
            <property name="text">
-            <string>09:18:00 </string>
+            <string>02:19:01 </string>
            </property>
            <property name="alignment">
             <set>Qt::AlignCenter</set>
@@ -18557,8 +18557,8 @@ TOUCHY</string>
    <slot>btn_maxv_100_clicked()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>306</x>
-     <y>454</y>
+     <x>53</x>
+     <y>424</y>
     </hint>
     <hint type="destinationlabel">
      <x>270</x>
@@ -19005,8 +19005,8 @@ TOUCHY</string>
    <slot>slider_maxv_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>114</x>
-     <y>435</y>
+     <x>103</x>
+     <y>430</y>
     </hint>
     <hint type="destinationlabel">
      <x>511</x>
@@ -19021,12 +19021,28 @@ TOUCHY</string>
    <slot>slider_rapid_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>114</x>
-     <y>510</y>
+     <x>103</x>
+     <y>430</y>
     </hint>
     <hint type="destinationlabel">
      <x>511</x>
      <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gcodegraphics</sender>
+   <signal>percentLoaded(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>percent_loaded_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>313</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>244</x>
+     <y>-11</y>
     </hint>
    </hints>
   </connection>
@@ -19086,11 +19102,12 @@ TOUCHY</string>
   <slot>cmb_gcode_history_clicked()</slot>
   <slot>slider_maxv_changed()</slot>
   <slot>slider_rapid_changed()</slot>
+  <slot>percent_loaded_changed()</slot>
  </slots>
  <buttongroups>
-  <buttongroup name="start_buttonGroup"/>
-  <buttongroup name="page_buttonGroup"/>
-  <buttongroup name="mode_buttonGroup"/>
   <buttongroup name="axis_buttonGroup"/>
+  <buttongroup name="page_buttonGroup"/>
+  <buttongroup name="start_buttonGroup"/>
+  <buttongroup name="mode_buttonGroup"/>
  </buttongroups>
 </ui>
